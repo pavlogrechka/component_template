@@ -1,0 +1,25 @@
+{
+  "name": "component_template",
+  "version": "1.0.0",
+  "description": "scss pug component template",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavlogrechka/component_template.git"
+  },
+  "author": "pavlogrechka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavlogrechka/component_template/issues"
+  },
+  "homepage": "https://github.com/pavlogrechka/component_template#readme"
+}
