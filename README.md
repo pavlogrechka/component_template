@@ -1,2 +1,2 @@
 # component_template
- fir try component method
+ try to use component method
