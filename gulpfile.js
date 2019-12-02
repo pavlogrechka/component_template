@@ -8,7 +8,7 @@ sass.compiler = require("node-sass");
 
 gulp.task("sass", function() {
   return gulp
-    .src("src/scss/style.scss")
+    .src("src/scss/**/*.scss")
     .pipe(sass().on("error", sass.logError))
     .pipe(gulp.dest("build"));
 });
@@ -24,6 +24,6 @@ gulp.task("pug", function() {
 });
 
 gulp.task("watch", function() {
-  gulp.watch("src/scss/style.scss", gulp.parallel("sass"));
-  gulp.watch("src/pug/index.pug", gulp.parallel("pug"));
+  gulp.watch("src/scss/**/*.scss", gulp.parallel("sass"));
+  gulp.watch("src/pug/**/*.pug", gulp.parallel("pug"));
 });

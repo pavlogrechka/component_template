@@ -1,7 +1,20 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 body {
-  font-size: 46px;
+  font-family: "Montserrat", sans-serif;
 }
+a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+ul,
+li {
+  list-style: none;
+}
+@import "header.scss";
+@import "standarts.scss";
+// @import "mixins.scss";
