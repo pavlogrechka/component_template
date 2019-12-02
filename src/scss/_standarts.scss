@@ -1,5 +1,5 @@
 .mobileapp.content-container {
-  padding: 0 50px;
+  padding: 0 150px;
   text-align: center;
 }
 .mobileapp__title {
@@ -22,9 +22,15 @@
   display: flex;
   margin-bottom: 55px;
 }
-
-.mobileapp-greed__block {
+.mobileapp-text__wrapper {
+  align-self: center;
+}
+.mobileapp-greed {
+  &__block {
+    display: flex;
+  }
   &__icon {
+    align-self: center;
   }
   &__title {
     font-size: 18px;
@@ -36,4 +42,7 @@
     line-height: 22px;
     color: #999999;
   }
+}
+.allservice-btn {
+  margin-bottom: 105px;
 }

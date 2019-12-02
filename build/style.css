@@ -41,14 +41,15 @@ li {
     font-size: 48px;
     line-height: 64px;
     margin-bottom: 50px; }
-  .site-info__button > a {
-    padding: 13px 36px 15px 36px;
-    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
-    background-color: #4985ff;
-    border-radius: 30px; }
+
+.button > a {
+  padding: 13px 36px 15px 36px;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  background-color: #4985ff;
+  border-radius: 30px; }
 
 .mobileapp.content-container {
-  padding: 0 50px;
+  padding: 0 150px;
   text-align: center; }
 
 .mobileapp__title {
@@ -70,12 +71,24 @@ li {
   display: flex;
   margin-bottom: 55px; }
 
-.mobileapp-greed__block__title {
+.mobileapp-text__wrapper {
+  align-self: center; }
+
+.mobileapp-greed__block {
+  display: flex; }
+
+.mobileapp-greed__icon {
+  align-self: center; }
+
+.mobileapp-greed__title {
   font-size: 18px;
   line-height: 22px;
   font-weight: 600; }
 
-.mobileapp-greed__block__description {
+.mobileapp-greed__description {
   font-size: 14px;
   line-height: 22px;
   color: #999999; }
+
+.allservice-btn {
+  margin-bottom: 105px; }
