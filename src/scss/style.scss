@@ -1,20 +1,4 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-body {
-  font-family: "Montserrat", sans-serif;
-}
-a {
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-}
-ul,
-li {
-  list-style: none;
-}
+@import "general.scss";
 @import "header.scss";
-@import "standarts.scss";
-// @import "mixins.scss";
+@import "section-app";
+@import "section-our-work";

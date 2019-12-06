@@ -1,0 +1,22 @@
+.our-work__bg {
+  padding-top: 100px;
+  display: flex;
+  background: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%), #c4c4c4;
+  height: 490px; }
+
+.our-work h2.section-title {
+  color: #fff;
+  width: 53%; }
+
+.our-work > .content-wrapper > a.section-link {
+  margin-top: 20px;
+  margin-right: 0;
+  align-self: flex-start; }
+
+.our-work .grid-container {
+  padding-top: 70px;
+  top: -258px;
+  position: relative; }
+
+.grid-item__img {
+  border-radius: 3%; }

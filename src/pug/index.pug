@@ -1,52 +1,21 @@
 <!DOCTYPE html>
-html(lang="en")
+html(lang="ru")
   head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    title Document
+    link(href='https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap', rel='stylesheet')
     link(rel="stylesheet", href="style.css")
-    link(href='https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800&display=swap', rel='stylesheet')
-    body
-      .wrapper
-        header.header
-          nav
-            ul.header-nav
-              li.header-nav__item
-                a(href="#") Link1
-              li.header-nav__item
-                a(href="#") Link2
-              li.header-nav__item
-                a(href="#") Link3
-              li.header-nav__item
-                a(href="#") Link4
-              li.header-nav__item
-                a(href="#") Link5
-          .site-info
-            span.site-info__top The first IT studio
-            h1.site-info__title We create simple solution </br> for difficult tasks
-            span.site-info__button.button
-              a Our projects
-      section.mobileapp.content-container
-        .mobileapp__title We create mobile application for big corporation
-        .mobileapp__description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nemo maiores at sed labore fugiat exercitationem modi consequuntur tenetur itaque!
-        .mobileapp-greed__container
-          .mobileapp-greed__block
-            img.mobileapp-greed__icon(src='../img/icon.png')
-            .mobileapp-text__wrapper
-              h3.mobileapp-greed__title Site develop
-              p.mobileapp-greed__description Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugiat.
-          .mobileapp-greed__block
-            img.mobileapp-greed__icon(src='../img/icon.png')
-            .mobileapp-text__wrapper
-              h3.mobileapp-greed__title Site develop
-              p.mobileapp-greed__description Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugiat.
-          .mobileapp-greed__block
-            img.mobileapp-greed__icon(src='../img/icon.png')
-            .mobileapp-text__wrapper
-              h3.mobileapp-greed__title Site develop
-              p.mobileapp-greed__description Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugiat.
-        .allservice-btn.button
-          a All services
+    title Document
+  body
+    include modules/header
+    include modules/section-app
+    include modules/section-standarts
+    include modules/section-our-work 
+    include modules/section-our-projects   
+    
 
-      script(src="../src/js/main.js")
+
+
+
+

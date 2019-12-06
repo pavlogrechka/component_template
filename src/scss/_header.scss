@@ -1,50 +1,103 @@
-// @mixin small-font {
-//   font: {
-//     family: Montserrat;
-//     size: 36px;
-//   }
-//   line-height: 53px;
-// }
 .header {
+  min-height: 900px;
+}
+.header-wrapper {
   background: url("../img/header.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
-  margin-bottom: 110px;
+  background-repeat: no-repeat;
+  max-width: 1920px;
 }
 .header-nav {
+  margin-bottom: 220px;
+  border-bottom: 1px solid #a1a1a1;
+}
+.nav-items {
   display: flex;
   justify-content: flex-end;
-  margin-right: 205px;
-  padding: 40px;
-  &__item:not(:last-child) {
-    margin-right: 40px;
+  .nav-item {
+    padding: 40px;
+    &:last-child {
+    }
+  }
+  .nav-link {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    &:hover {
+      border-bottom: 3px solid #a1a1a1;
+    }
   }
 }
-.site-info {
-  color: #ffffff;
+
+.header-info {
+  color: #fff;
   text-align: center;
+}
+.info-name {
+  font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-
-  &__top {
-    margin-bottom: 20px;
-  }
-  &__title {
-    font-size: 48px;
-    line-height: 64px;
-    margin-bottom: 50px;
-  }
-  // &__button > a {
-  //   padding: 13px 36px 15px 36px;
-  //   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
-  //   background-color: #4985ff;
-  //   border-radius: 30px;
-  // }
+  margin-bottom: 20px;
 }
-.button > a {
+.info-title {
+  margin: 0 auto;
+  max-width: 50%;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  margin-bottom: 50px;
+}
+.info-link {
+}
+.btn {
+  width: 200px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   padding: 13px 36px 15px 36px;
-  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   background-color: #4985ff;
   border-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  &:active {
+    background-color: #2b69e6;
+  }
+}
+
+section.standarts {
+  padding-top: 100px;
+  background-color: #f6f6f8;
+  padding-bottom: 70px;
+}
+
+.block-standarts {
+  display: flex;
+  margin-bottom: 90px;
+}
+
+hr.hr {
+  margin-bottom: 70px;
+}
+.block-projects {
+  display: flex;
+  justify-content: space-around;
+}
+.project {
+}
+span.project-num {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 53px;
+}
+p.project-bottom {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+}
+img.project-icon {
 }

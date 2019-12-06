@@ -23,7 +23,7 @@ gulp.task("pug", function() {
     .pipe(gulp.dest("build"));
 });
 
-gulp.task("watch", function() {
+gulp.task("default", function() {
   gulp.watch("src/scss/**/*.scss", gulp.parallel("sass"));
   gulp.watch("src/pug/**/*.pug", gulp.parallel("pug"));
 });

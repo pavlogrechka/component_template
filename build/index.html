@@ -1,55 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&amp;display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800&amp;display=swap" rel="stylesheet"/>
-    <body>
-      <div class="wrapper">
-        <header class="header">
-          <nav>
-            <ul class="header-nav">
-              <li class="header-nav__item"><a href="#">Link1</a></li>
-              <li class="header-nav__item"><a href="#">Link2</a></li>
-              <li class="header-nav__item"><a href="#">Link3</a></li>
-              <li class="header-nav__item"><a href="#">Link4</a></li>
-              <li class="header-nav__item"><a href="#">Link5</a></li>
-            </ul>
-          </nav>
-          <div class="site-info"><span class="site-info__top">The first IT studio</span>
-            <h1 class="site-info__title">We create simple solution </br> for difficult tasks</h1><span class="site-info__button button"><a>Our projects</a></span>
-          </div>
-        </header>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header header-wrapper">
+      <nav class="header-nav">
+        <ul class="nav-items">
+          <li class="nav-item"><a class="nav-link" href="#">Главная</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Наши проекты</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Услуги</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Новости</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header-info"><span class="info-name">Передовая IT студия</span>
+        <p class="info-title">Мы создаем легкие решения сложных задач и проблем</p><a class="info-link btn">Наши проекты</a>
       </div>
-      <section class="mobileapp content-container">
-        <div class="mobileapp__title">We create mobile application for big corporation</div>
-        <div class="mobileapp__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nemo maiores at sed labore fugiat exercitationem modi consequuntur tenetur itaque!</div>
-        <div class="mobileapp-greed__container">
-          <div class="mobileapp-greed__block"><img class="mobileapp-greed__icon" src="../img/icon.png"/>
-            <div class="mobileapp-text__wrapper">
-              <h3 class="mobileapp-greed__title">Site develop</h3>
-              <p class="mobileapp-greed__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugiat.</p>
-            </div>
-          </div>
-          <div class="mobileapp-greed__block"><img class="mobileapp-greed__icon" src="../img/icon.png"/>
-            <div class="mobileapp-text__wrapper">
-              <h3 class="mobileapp-greed__title">Site develop</h3>
-              <p class="mobileapp-greed__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugiat.</p>
-            </div>
-          </div>
-          <div class="mobileapp-greed__block"><img class="mobileapp-greed__icon" src="../img/icon.png"/>
-            <div class="mobileapp-text__wrapper">
-              <h3 class="mobileapp-greed__title">Site develop</h3>
-              <p class="mobileapp-greed__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugiat.</p>
-            </div>
+    </header>
+    <section class="app content-wrapper">
+      <h2 class="app-title">Мы создаем мобильные приложения для крупных корпораций</h2>
+      <p class="app-desc">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
+      <div class="grid-container">
+        <div class="grid-card"><img class="grid-icon" src="../img/icon.png" alt=""/>
+          <div class="grid-info">
+            <h3 class="grid-info__title">Создание сайтов</h3>
+            <p class="grid-info__text">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
           </div>
         </div>
-        <div class="allservice-btn button"><a>All services</a></div>
-      </section>
-      <script src="../src/js/main.js"></script>
-    </body>
-  </head>
+        <div class="grid-card"><img class="grid-icon" src="../img/icon.png" alt=""/>
+          <div class="grid-info">
+            <h3 class="grid-info__title">Создание сайтов</h3>
+            <p class="grid-info__text">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
+          </div>
+        </div>
+        <div class="grid-card"><img class="grid-icon" src="../img/icon.png" alt=""/>
+          <div class="grid-info">
+            <h3 class="grid-info__title">Создание сайтов</h3>
+            <p class="grid-info__text">Lorem Ipsum - это текст- "рыба", часто используе в печати и вэб-дизайне.</p>
+          </div>
+        </div>
+      </div><a class="app section-link btn">Все услуги</a>
+    </section>
+    <section class="standarts content-wrapper">
+      <div class="block-standarts">
+        <div class="standarts-info">
+          <h2 class="standarts-info__title section-title">Высокие стандарты разработки</h2>
+          <p class="standarts-info__desc section-desc">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI века. </p><a class="standarts-info__link">Подробнее о компании</a>
+        </div>
+        <div class="standart-img"><img src="../img/standarts.png" alt=""/></div>
+      </div>
+      <hr class="hr"/>
+      <div class="block-projects">
+        <div class="project">
+          <div class="project-top"><img class="project-icon" src="../img/web-programming.svg" alt=""/><span class="project-num">125</span></div>
+          <p class="project-bottom tac">Our projects</p>
+        </div>
+        <div class="project">
+          <div class="project-top"><img class="project-icon" src="../img/web-programming.svg" alt=""/><span class="project-num">125</span></div>
+          <p class="project-bottom tac">Our projects</p>
+        </div>
+        <div class="project">
+          <div class="project-top"><img class="project-icon" src="../img/web-programming.svg" alt=""/><span class="project-num">125</span></div>
+          <p class="project-bottom tac">Our projects</p>
+        </div>
+        <div class="project">
+          <div class="project-top"><img class="project-icon" src="../img/web-programming.svg" alt=""/><span class="project-num">125</span></div>
+          <p class="project-bottom tac">Our projects</p>
+        </div>
+        <div class="project">
+          <div class="project-top"><img class="project-icon" src="../img/web-programming.svg" alt=""/><span class="project-num">125</span></div>
+          <p class="project-bottom tac">Our projects</p>
+        </div>
+      </div>
+    </section>
+    <section class="our-work">
+      <div class="our-work__bg content-wrapper">
+        <h2 class="section-title">Наши работы, на которых мы специализируемся</h2><a class="section-link btn">Все услуги</a>
+      </div>
+      <div class="grid-container content-wrapper">
+        <div class="grid-item"><img class="grid-item__img" src="../img/work.jpg" alt=""/>
+          <h3 class="grid-item__title">01. Исследование и упаковка</h3>
+          <p class="grid-item__desc">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p><a class="grid-item__link">Подробнее</a>
+        </div>
+        <div class="grid-item"><img class="grid-item__img" src="../img/work.jpg" alt=""/>
+          <h3 class="grid-item__title">01. Исследование и упаковка</h3>
+          <p class="grid-item__desc">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p><a class="grid-item__link">Подробнее</a>
+        </div>
+        <div class="grid-item"><img class="grid-item__img" src="../img/work.jpg" alt=""/>
+          <h3 class="grid-item__title">01. Исследование и упаковка</h3>
+          <p class="grid-item__desc">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p><a class="grid-item__link">Подробнее</a>
+        </div>
+      </div>
+      <hr class="hr"/>
+    </section>
+    <section class="our-projects content-wrapper">
+      <h2 class="section-title">Наши проекты</h2>
+      <p class="section-description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
+      <div class="grid-block"><img class="grid-block__img" src="../img/projects.jpg" alt=""/><img class="grid-block__img" src="../img/projects.jpg" alt=""/><img class="grid-block__img" src="../img/projects.jpg" alt=""/><img class="grid-block__img" src="../img/projects.jpg" alt=""/></div><a class="section-link btn" href="#">Все проекты</a>
+    </section>
+  </body>
 </html>
